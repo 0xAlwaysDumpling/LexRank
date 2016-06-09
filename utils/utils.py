@@ -16,12 +16,14 @@ def removePunct(s):
 def getSentences(doc_dir,doc_id):
 	i = 0
 	for subdir, dirs, files in os.walk(doc_dir):
+		files.sort()
 		for file in files:
 			filepath = subdir + file
 			if i == doc_id:
 				with open(filepath) as doc:
 					sentences = tokenize.sent_tokenize(doc.read())
 					return sentences
+					
 			else:
 				i = i + 1 
 
