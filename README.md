@@ -7,6 +7,5 @@ http://arxiv.org/pdf/1109.2128.pdf
 	python -c "import nltk; nltk.download('punkt')"
 	pip install numpy
 	
-
-#Example of usage	
-[a link](https://github.com/jtan25/LexRank/blob/master/runLRExample.py)
+	
+#[Example of usage](https://github.com/jtan25/LexRank/blob/master/runLRExample.py)
