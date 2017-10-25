@@ -1,6 +1,6 @@
 # LexRank
-Graph-based Lexical Centrality as Salience in Text Summarization
-#Paper 
+Graph-based Lexical Centrality as Salience in Text Summarization  
+# Paper 
 http://arxiv.org/pdf/1109.2128.pdf  
 # Installation
 	pip install nltk
